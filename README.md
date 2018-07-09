@@ -1,6 +1,8 @@
 # weather_pattern
 
-created on Monday July 9, 2018 @author: Benjamin O. Tayo
+created on Monday July 9, 2018 
+
+@author: Benjamin O. Tayo
 
 This code performs the following:
 It returns a line graph of the record high and record low temperatures by day of the year over the period 2005-2014. 
