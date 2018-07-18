@@ -11,3 +11,7 @@ Overlays a scatter plot of the 2015 data for any points (highs and lows) for whi
 weather_data.csv: This NOAA dataset contains weather data from several data stations near Ann Arbor, Michigan, United States . This data comes from a subset of The National Centers for Environmental Information (NCEI) Daily Global Historical Climatology Network (GHCN-Daily). The GHCN-Daily is comprised of daily climate records from thousands of land surface stations across the globe. 
 
 analysis.ipynb: Jupiter notebook that imports the dataset, performs elementary data exploration and analysis, and then plots the weather pattern for visualization.
+
+analysis.R: R script that performs a similar calculation as the python analysis.ipynb file.
+
+output.PNG: Output generated from R code.
