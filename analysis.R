@@ -21,7 +21,7 @@ day<-sapply(as.vector(df$Date),day_function)
 year<-sapply(as.vector(df$Date),year_function)
 df<-df%>%mutate(Day=day,Year=year )
 
-#filter leap year and select 10 year observation: 2005-2014
+#filter leap year and select 10 year observation period: 2005-2014
 
 df_2005_to_2014<-df%>%filter((df$Day!='02-29')&(df$Year!='2015'))
 df_2015<-df%>%filter((df$Day!='02-29')&(df$Year=='2015'))
