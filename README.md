@@ -14,4 +14,4 @@ analysis.ipynb: Jupiter notebook that imports the dataset, performs elementary d
 
 analysis.R: R script that performs a similar calculation as the python analysis.ipynb file.
 
-output.PNG: Output generated from R code.
+output.png: Output generated from R code.
